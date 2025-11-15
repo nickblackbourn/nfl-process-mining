@@ -1,0 +1,32 @@
+# Data files (downloaded automatically)
+data/
+*.csv
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter notebooks (if any are added later)
+.ipynb_checkpoints/
+
+# Large output files (except sample)
+outputs/*.csv
+!outputs/sample_output.csv
